@@ -1,0 +1,39 @@
+html{
+    background: rgb(137,155,245);
+    background: radial-gradient(circle, rgba(137,155,245,1) 0%, rgba(255,160,179,1) 100%);
+    text-align: center;
+    font-family: cursive;
+    font-size: larger;
+}
+table{
+    margin: 4rem auto;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 30rem;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+tr,th,td{
+    border: 2px solid black;
+}
+.game{
+    width: 4rem;
+    height: 2rem;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+#play_button{
+    width: 4rem;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+#answer{
+    font-size: xx-large;
+}
+#answer1{
+    font-size: xx-large;
+}
+#final{
+    font-size: 10rem;
+    color: rgba(242, 255, 0, 0.816);
+}

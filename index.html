@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <section class="container">
+        <div id="entry">
+            <h1>Rock Paper Scissors Game</h1>
+            <label>Enter the number of Rounds:</label>
+            <input type="number" id="Round_input" required/>
+            <button type="submit" id="play_button">Play</button>
+        </div><br><br>
+        <div>
+            <button type="submit" class="game" data-num="Rock">Rock</button>
+            <button type="submit" class="game" data-num="Paper">Paper</button>
+            <button type="submit" class="game" data-num="Scissor">Scissor</button>
+        </div><br>
+        <div>
+            <span>Your Choice:<span id="answer1"></span></span><br>
+            <span>Bot Choice:<span id="answer"></span></span>
+        </div>
+        <div id="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Round(s)</th>
+                        <th>Result(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rounds Number :<span id="Rd_no"></span></td>
+                        <td id="result"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="info">
+            <span>Round(s) left:<span id="rd_left">0</span></span>&emsp;
+            <span>Your Point(s):<span id="user_points">0</span></span>&emsp;
+            <span>Bot point(s):<span id="bot_points">0</span></span>
+        </div>
+        <div>
+            <span id="final"></span>
+        </div>
+    </section>
+    <script src="./JavaScript/script.js"></script>
+</body>
+</html>
